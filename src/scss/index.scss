@@ -1,0 +1,18 @@
+@import-normalize;
+@import "fonts";
+@import "global";
+@import "libs";
+@import "all";
+
+.wrapper {
+  //display: flex; // если нужно прижать footer к низу
+  //flex-direction: column; // если нужно прижать footer к низу
+  //min-height: 100%; // если нужно прижать footer к низу
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
